@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <div id=P age>
+
+        <h1 id="Heading">TIC-TAC-TOE-GAME</h1>
+        <div id="Grid">
+            <h2>Show kr</h2>
+
+            <div class="grid-container">
+                <div class="gItem1" id="1" onclick="myFunction(this.id)"></div>
+                <div class="gItem2" id="2" onclick="myFunction(this.id)"></div>
+                <div class="gItem3" id="3" onclick="myFunction(this.id)"></div>
+                <div class="gItem4" id="4" onclick="myFunction(this.id)"></div>
+                <div class="gItem5" id="5" onclick="myFunction(this.id)"></div>
+                <div class="gItem6" id="6" onclick="myFunction(this.id)"></div>
+                <div class="gItem7" id="7" onclick="myFunction(this.id)"></div>
+                <div class="gItem8" id="8" onclick="myFunction(this.id)"></div>
+                <div class="gItem9" id="9" onclick="myFunction(this.id)"></div>
+            </div>
+        </div>
+
+        <div id="ScoreBoard">
+            <div class="grid-container_">
+                <div class="gItem1_">
+                    Player 1
+                </div>
+                <div class="gItem2_">
+                    Draw Matches
+                </div>
+                <div class="gItem3_">
+                    Player 2
+                </div>
+                <div class="gItem4_" id="showPlayer1Winning">
+                    0
+                </div>
+                <div class="gItem5_" id="drawMatchesCount">
+                    0
+                </div>
+                <div class="gItem6_" id="showPlayer2Winning">
+                    0
+                </div>
+            </div>
+            <h2 id="Reset_Board" onclick="clearScreen()">
+                Reset Board
+            </h2>
+            <h2 id="Reset_Scores" onclick="resetScore()">
+                Reset Scores
+            </h2>
+
+
+        </div>
+        <script src="run.js" type="text/javascript"></script>
+
+    </div>
+</body>
+
+</html>
